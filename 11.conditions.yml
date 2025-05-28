@@ -4,6 +4,7 @@
   vars_prompt:
   - name: age
     prompt: please enter your age
+    private: true
 
   tasks:
   - name: print when the condition satisfy
