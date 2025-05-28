@@ -1,0 +1,13 @@
+- name: task-vars
+  hosts: local
+  connection: local
+  vars:
+    course: Ansible
+    duration: 10hrs
+  tasks:
+  - name: print variables at task level
+    vars:
+      course: devops
+      duration: 20hrs
+    ansible.builtin.debug:
+      msg: "Hello from {{course}}!!!. your duration is {{duration}}"
