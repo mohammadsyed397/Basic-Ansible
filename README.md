@@ -2,7 +2,8 @@
 
 > 🚀 A beginner-friendly collection of Ansible playbooks to automate and manage systems.
 
-![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/1/1a/Ansible_logo.svg)
+![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png)
+
 
 ## 📖 Introduction
 
