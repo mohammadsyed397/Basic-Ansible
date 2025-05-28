@@ -3,9 +3,6 @@
 
 > 🚀 A beginner-friendly collection of Ansible playbooks to automate and manage systems.
 
-![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png)
-
-
 ## 📖 Introduction
 
 Welcome to the **Basic Ansible** repository! This collection is designed to help newcomers understand and utilize Ansible for automating IT tasks. It covers fundamental concepts, including:
