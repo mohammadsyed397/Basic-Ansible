@@ -1,0 +1,12 @@
+- name: conditions
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: age
+    prompt: please enter your age
+
+  tasks:
+  - name: print when the condition satisfy
+    ansible.builtin.debug:
+      msg: "Hello you are {{age}} old. you are major now!!!"
+    when: age>18
