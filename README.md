@@ -1,34 +1,34 @@
-# Basic Ansible
+# 📦 Basic Ansible
 
-> A beginner-friendly collection of Ansible playbooks to automate and manage systems.
+> 🚀 A beginner-friendly collection of Ansible playbooks to automate and manage systems.
 
 ![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/1/1a/Ansible_logo.svg)
 
+## 📖 Introduction
 
-## 🧠 Introduction
+Welcome to the **Basic Ansible** repository! This collection is designed to help newcomers understand and utilize Ansible for automating IT tasks. It covers fundamental concepts, including:
 
-Welcome to the **Basic Ansible** repository! This collection is designed to help newcomers understand and utilize Ansible for automating IT tasks. It covers fundamental concepts, including variables, conditions, loops, and multi-playbook orchestration.
+- Variables
+- Conditions
+- Loops
+- Multi-playbook orchestration
 
 ---
 
 ## 🗂️ Repository Structure
 
-The repository contains the following files:
-
-- `01.playbook.yml`: A simple playbook example.
-- `02.helloworld.yml`: A basic playbook that prints "Hello World".
-- `03.ngnix.yml`: Playbook for installing and configuring NGINX.
-- `04.multi-play.yml`: Demonstrates multiple plays in a single playbook.
-- `05.play-vars.yml`: Playbook showcasing variable usage.
-- `06.task-vars.yml`: Demonstrates task-specific variables.
-- `07.vars-file.yml`: Playbook that loads variables from an external file.
-- `08.vars-prompt.yml`: Playbook that prompts for user input.
-- `09.Inventory-vars.yml`: Demonstrates inventory-specific variables.
-- `10.data-types.yml`: Playbook showcasing different data types.
-- `11.conditions.yml`: Playbook demonstrating conditional statements.
-
-Additionally, the repository includes:
-
-- `inventory.ini`: Sample inventory file.
-- `vars.yml`: Sample variables file.
-
+```bash
+.
+├── 01.playbook.yml           # Basic playbook structure
+├── 02.helloworld.yml         # Hello World example
+├── 03.ngnix.yml              # Install & configure NGINX
+├── 04.multi-play.yml         # Multi-play example
+├── 05.play-vars.yml          # Variables in playbook
+├── 06.task-vars.yml          # Task-level variables
+├── 07.vars-file.yml          # External variables file
+├── 08.vars-prompt.yml        # Prompt for variables
+├── 09.Inventory-vars.yml     # Inventory variables
+├── 10.data-types.yml         # YAML data types
+├── 11.conditions.yml         # Using conditions
+├── inventory.ini             # Inventory file
+└── vars.yml                  # Sample variable file
