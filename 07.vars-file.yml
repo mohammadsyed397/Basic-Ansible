@@ -1,7 +1,7 @@
 - name: file-vars
   hosts: local
   connection: local
-  vars:
+  vars_files:
     -vars.yml
   tasks:
   - name: print the variables from vairbale file-vars
