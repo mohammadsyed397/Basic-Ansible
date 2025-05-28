@@ -1,6 +1,6 @@
 - name: variables
   hosts: local
-  connections: local
+  connection: local
   vars:
     course: aws
     duration: 10hrs
