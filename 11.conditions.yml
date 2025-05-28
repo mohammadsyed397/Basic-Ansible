@@ -9,4 +9,4 @@
   - name: print when the condition satisfy
     ansible.builtin.debug:
       msg: "Hello you are {{age}} old. you are major now!!!"
-    when: age>18
+    when: age | int >18
