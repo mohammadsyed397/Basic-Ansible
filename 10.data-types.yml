@@ -1,0 +1,18 @@
+- name: print the data types
+  hosts: local
+  connection: local
+  vars:
+      Duration: 10hrs
+      course: aws
+      is_live: true
+      tools:
+        - iam
+        - s3
+        - vpc
+      Concepts:
+        CI: code pipeline
+        deploy: code deplooyy
+  tasks:
+  - name: print the data types
+    ansible.builtin.debug:
+      msg: "Hello from {{course}}. your duration is {{duration}}. tools are {{tools}}. and the concepts covered are {{concepts}}.
