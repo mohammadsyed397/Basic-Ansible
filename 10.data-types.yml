@@ -15,4 +15,4 @@
   tasks:
   - name: print the data types
     ansible.builtin.debug:
-      msg: "Hello from {{course}}. your duration is {{duration}}. tools are {{tools}}. and the concepts covered are {{concepts}}.
+      msg: "Hello from {{course}}. your duration is {{duration}}. tools are {{tools}}. and the concepts covered are {{concepts}}."
